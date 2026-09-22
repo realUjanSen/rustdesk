@@ -57,7 +57,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y \
-            clang cmake curl git libclang-dev libunwind-dev \
+            clang cmake curl gcc-multilib git g++-multilib libc6-dev \
+            libclang-dev libunwind-dev \
             libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
             libgtk-3-dev libpulse-dev libva-dev libxcb-randr0-dev \
             libxcb-shape0-dev libxcb-xfixes0-dev libxdo-dev libxfixes-dev \
